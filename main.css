@@ -1,0 +1,51 @@
+
+h1 {
+  color: black;
+  text-align: center;
+  background: #F2E4C9;
+  padding: 20px;
+  position: relative;
+  margin-top: 0px;
+}
+
+.introduction {
+
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+}
+
+.box1 {
+  grid-column: 1/4;
+  height: 200px;
+  text-align: center;
+}
+.portfolio > div {
+  background: #D92949;
+  padding: 1em;
+  text-align: center;
+}
+.portfolio > div:nth-child(odd){
+  background: #268EA6;
+}
+
+.contact {
+  position: relative;
+  height: 300px;
+  margin: 0px;
+  background: #F29E38;
+  text-align: center;
+}
+
+
+footer {
+  position: relative;
+  margin-bottom: 0px;
+  background: #F2CA52;
+  padding: 20px;
+  text-align: center;
+}
